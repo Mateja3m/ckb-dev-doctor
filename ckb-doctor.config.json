@@ -1,0 +1,6 @@
+{
+  "network": "testnet",
+  "rpcUrl": "https://testnet.ckb.dev/",
+  "indexerUrl": "https://testnet.ckb.dev/indexer",
+  "timeoutMs": 5000
+}
