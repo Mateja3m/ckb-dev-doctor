@@ -1,6 +1,6 @@
 {
   "name": "@idoa/dev-doctor-ckb",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "TypeScript-first diagnostics and onboarding toolkit for Nervos CKB developers.",
   "keywords": [
     "ckb",
@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/Mateja3m/ckb-dev-doctor/issues"
   },
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "MIT",
   "type": "commonjs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
