@@ -5,6 +5,20 @@ Lightweight developer diagnostics and onboarding toolkit for CKB builders.
 - npm package name: `@idoa/dev-doctor-ckb`
 - CLI binary: `ckb-doctor`
 
+## Why this matters for CKB
+
+CKB development often requires multiple components:
+
+- CKB node
+- RPC endpoint
+- Indexer
+- config files
+- local environment setup
+
+Misconfiguration is a common onboarding issue.
+
+CKB Dev Doctor provides a fast CLI diagnostics layer to help developers validate their setup before building applications on CKB.
+
 ## What this repo is
 
 This repository is a small CKB-specific wrapper around shared Dev Doctor packages:
