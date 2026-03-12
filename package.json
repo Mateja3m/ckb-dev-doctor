@@ -2,6 +2,22 @@
   "name": "@idoa/dev-doctor-ckb",
   "version": "0.1.0",
   "description": "TypeScript-first diagnostics and onboarding toolkit for Nervos CKB developers.",
+  "keywords": [
+    "ckb",
+    "nervos",
+    "dev-doctor",
+    "diagnostics",
+    "onboarding",
+    "cli"
+  ],
+  "homepage": "https://github.com/Mateja3m/ckb-dev-doctor#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mateja3m/ckb-dev-doctor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mateja3m/ckb-dev-doctor/issues"
+  },
   "license": "SEE LICENSE IN LICENSE",
   "type": "commonjs",
   "main": "dist/index.js",
@@ -34,9 +50,13 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "typecheck": "tsc -p tsconfig.json --noEmit",
+    "prepublishOnly": "npm run clean && npm run build && npm run lint && npm run test && npm run typecheck",
     "demo:dev": "npm --workspace demo run dev",
     "demo:build": "npm --workspace demo run build",
     "demo:start": "npm --workspace demo run start"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "@idoa/dev-doctor-cli-kit": "^0.1.0",

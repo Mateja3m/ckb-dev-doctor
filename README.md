@@ -60,13 +60,6 @@ Run without build:
 npm run doctor:dev -- report --json --config ./ckb-doctor.config.json
 ```
 
-## If package is published on npm
-
-```bash
-npx --yes --package @idoa/dev-doctor-ckb ckb-doctor --help
-npx --yes --package @idoa/dev-doctor-ckb ckb-doctor report --json --config ./ckb-doctor.config.json
-```
-
 ## CLI commands
 
 - `env`
